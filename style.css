@@ -1,0 +1,99 @@
+/*
+**** LIMPAR FORMATAÇÕES ****
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#header{
+    background-color: #325862;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+}
+#menu a{
+    font-size: 18px;
+    color: #f4eaa8;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px;
+    
+}
+
+#menu a:hover{
+    background-color: #f4eaa8;
+    color: #325862;
+    border-radius: 5px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    h1{
+        font-size: 40px;
+        color: #f4eaa8;
+    }
+}
+.meu-bloco {
+  width: 660px;
+  background-color:#f4eaa8;
+  color: #325862;
+  padding: 30px 40px;
+  margin: 30px auto;
+  text-align: justify;
+  line-height: 1.6;
+  word-spacing: 4px;
+  border-radius: 16px;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*css de contato*/
+
+input, textarea{
+
+  width: 400px;   
+  height: 20px;     
+  padding: 10px 10px; 
+  font-size: 1.2rem;
+  border-radius: 15px;
+
+}
+button{
+    background-color: #325862;
+    padding:5px;
+    border-radius: 15px;
+    color: #f4eaa8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+/*css do formacao*/
+h3{
+    background-color: #325862;
+    color: #f4eaa8;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.div-formacao, .div-portfolio{
+width: 1200px;
+  background-color:#f4eaa8;
+  color: #325862;
+  padding: 30px 40px;
+  margin: 30px auto;
+  text-align: justify;
+  line-height: 1.6;
+  word-spacing: 4px;
+  border-radius: 16px;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*portfolio*/
+img{
+    width: 100%;
+    border-radius: 10px;
+
+}
